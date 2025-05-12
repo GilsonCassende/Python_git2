@@ -9,7 +9,7 @@ for i in range(5):
 
 media = s / 3
 for elem in v:
-    print(elem, end="")
+    print(elem , end="")
 print(f"A soma dos valores é : {s} e a media do valores é : {media: .2} ")
 
   
