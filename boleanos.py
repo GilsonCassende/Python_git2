@@ -1,0 +1,13 @@
+a = input("Digite algo : \n")
+print("O tipo do valor inserido é : ", type(a))
+print("Só tem Espaços ? : ", a.isspace())
+print("É um número ? : ", a.isnumeric())
+print("É alfabetico ? : ", a.isalpha())
+print("É alfanumerico  ? : ", a.isalnum())
+print("É Maiusculo ? : ", a.isupper())
+print("É um Minusculo ? : ", a.islower())
+print("Esta captalizada ? : ", a.istitle())
+
+n1 = int(input("digite o primeiro numero: \n  "))
+n2 = int(input("digite o segundo numero: \n  "))
+print(f"{n1 + n2}")
