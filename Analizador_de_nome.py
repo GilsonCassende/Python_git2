@@ -1,0 +1,11 @@
+nome = input("Digite seu nome completo : \n").strip()
+s = nome.split().copy()
+print(f"Olá {s[0]} {s[len(s) - 1]}")
+print("Analizando seu nome.....")
+print(f"Seu nome em Maiusculo é : {nome.upper()}")
+print(f"Seu nome em minusculo é : {nome.lower()} ")
+print(f"Seu nome tem {len(nome)} letras ")
+print(f"Seu primeiro nome é {nome.split()[0]}")
+print(f"Seu ultimo nome é {nome.split()[1]}")
+
+print(f"Seu nome tem Cassende ? {"Cassende" in nome}")
