@@ -1,0 +1,1 @@
+print--Vou pensar em um numero de 0 a 5 ")
